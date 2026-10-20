@@ -1,2 +1,1 @@
-def main() -> None:
-    print("Hello from jfpresence!")
+"""jfpresence: Discord Rich Presence for Jellyfin."""

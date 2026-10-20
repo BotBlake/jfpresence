@@ -1,0 +1,1 @@
+"""TODO: pure function: list[SessionInfoDto] + user filter -> NowPlaying | None. Pick the session of the configured user with NowPlayingItem; map Episode/Movie/Audio to activity type + text; compute start/end from PositionTicks (10_000_000 ticks/s) and IsPaused."""

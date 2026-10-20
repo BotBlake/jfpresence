@@ -1,0 +1,1 @@
+"""TODO: WebSocket /socket?api_key=..&deviceId=.. ; send SessionsStart ("0,1000"); parse Sessions messages; answer ForceKeepAlive / send KeepAlive; reconnect with backoff; send SessionsStop on exit."""

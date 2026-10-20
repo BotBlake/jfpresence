@@ -1,16 +1,25 @@
 [project]
 name = "jfpresence"
 version = "0.1.0"
-description = "Add your description here"
+description = "Discord Rich Presence for Jellyfin, with a Textual TUI"
 readme = "README.md"
 authors = [
     { name = "BotBlake", email = "B0TBlake@protonmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "textual",
+    "aiohttp",
+    "pypresence",
+    "platformdirs",
+    "keyring",
+]
 
 [project.scripts]
-jfpresence = "jfpresence:main"
+jfpresence = "jfpresence.__main__:main"
+
+[dependency-groups]
+dev = ["pytest", "pytest-asyncio", "textual-dev", "ruff", "pyinstaller"]
 
 [build-system]
 requires = ["uv_build>=0.13.3,<0.14.0"]

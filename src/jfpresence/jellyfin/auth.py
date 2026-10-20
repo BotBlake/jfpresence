@@ -1,0 +1,1 @@
+"""TODO: build the `Authorization: MediaBrowser ...` header (Client, Device, DeviceId, Version, Token); stable DeviceId; login via /Users/AuthenticateByName or Quick Connect (/QuickConnect/Initiate -> poll /Connect -> /Users/AuthenticateWithQuickConnect); validate with /System/Info/Public and /Users/Me."""

@@ -1,0 +1,1 @@
+# TODO: matrix [ubuntu, windows, macos]: uv sync -> ruff/pytest -> uv build (wheel) -> uv run pyinstaller packaging/jfpresence.spec -> upload artifacts / GitHub release on tag
